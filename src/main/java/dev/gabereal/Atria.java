@@ -20,5 +20,6 @@ public class Atria implements ModInitializer {
 		// Proceed with mild caution.
 
 		LOGGER.info("Hello Fabric world!");
+		PlayerJoinHandler.register();
 	}
 }
