@@ -1,6 +1,8 @@
 package dev.gabereal.items;
 
 import dev.gabereal.Atria;
+import dev.gabereal.items.custom.HeartContainerItem;
+import dev.gabereal.items.custom.LargeHeartContainerItem;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -13,8 +15,8 @@ import net.minecraft.util.Identifier;
 import java.util.function.Function;
 
 public class ModItems {
-    public static final Item HEART_CONTAINER = registerItem("heart_container", Item::new);
-    public static final Item LARGE_HEART_CONTAINER = registerItem("large_heart_container", Item::new);
+    public static final Item HEART_CONTAINER = registerItem("heart_container", HeartContainerItem::new);
+    public static final Item LARGE_HEART_CONTAINER = registerItem("large_heart_container", LargeHeartContainerItem::new);
     public static final Item DARK_HEART = registerItem("dark_heart", Item::new);
     public static final Item HEART = registerItem("heart", Item::new);
 
