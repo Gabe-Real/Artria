@@ -14,7 +14,7 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod",
 		"discord": "https://discord.gabereal.co.uk"
 	},
-	"license": "CC0-1.0",
+	"license": "ARR",
 	"icon": "assets/atria/icon.png",
 	"environment": "*",
 	"entrypoints": {

@@ -1,5 +1,6 @@
 package dev.gabereal;
 
+import dev.gabereal.items.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -21,5 +22,6 @@ public class Atria implements ModInitializer {
 
 		LOGGER.info("Hello Fabric world!");
 		PlayerJoinHandler.register();
+		ModItems.registerModItems();
 	}
 }
